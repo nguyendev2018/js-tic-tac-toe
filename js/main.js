@@ -10,8 +10,14 @@ const clickTurn = getElement("currentTurn").addEventListener("click", function (
         this.classList.add("cross");
         this.classList.remove("circle");
     }
-    // if (this.classList[0] === "circles") {
-    //     this.classList.add("cross");
-    //     this.classList.remove("circles");
-    // }
+
 })
+const listTable = document.querySelectorAll('#cellList li');
+for (let i = 0; i < listTable.length; i++) {
+    listTable[i].addEventListener("click", function () {
+        if (this.classList == "") {
+
+        }
+    })
+
+}
